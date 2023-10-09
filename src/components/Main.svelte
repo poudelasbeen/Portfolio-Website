@@ -6,40 +6,50 @@
   let steps = [
       {
           name: "Internal Marks Management System",
-          icon: "fa-solid fa-cart-shopping",
+          icon: "",
           description:
-              "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
+              "A basic marks management system is a web application built with React, Postgresql, HTML, CSS and JS.",
       },
       {
           name: "Student Study System",
-          icon: "fa-solid fa-list-check",
+          icon: "",
           description:
-              "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
+          "Student Study System is a web application built using Python with Django, SQLite, HTML, CSS and JS",
       },
       {
           name: "Weather App",
-          icon: "fa-solid fa-diagram-project",
+          icon: "",
           description:
-              "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+              "A Weather App is a Java mobile application that pulls weather API to display the weather details of the location which you want to search .",
       },
   ];
 
   let benefits = [
       {
           metric: "10x",
-          name: "a self taught developer",
+          name: "Passionate Learner:",
           description:
-              "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+              "I am a passionate learner who thrives on acquiring new knowledge and skills. I believe that learning is a lifelong journey, and I am constantly seeking opportunities to expand my horizons and stay at the forefront of my field.",
       },
       {
-          name: "a product design & UX finatic",
+          name: "Research Enthusiast:",
           description:
-              "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+              "I am deeply enthusiastic about cutting-edge research and innovation. I enjoy staying up-to-date with the latest developments in my industry and actively engage in research projects that contribute to the advancement of knowledge and technology.",
       },
       {
-          name: "an excellent communicator",
+          name: "Self-Taught Trailblazer: ",
           description:
-              "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
+              "As a self-taught individual, I take pride in my ability to independently acquire new skills and overcome challenges. I believe in the power of determination and resourcefulness to achieve personal and professional goals.",
+      },
+      {
+          name: "Effective Communicator: ",
+          description:
+              " I possess strong communication skills, both written and verbal, which enable me to convey complex ideas and information in a clear and engaging manner. Effective communication is crucial in building connections and fostering collaboration.",
+      },
+      {
+          name: "Problem Solver: ",
+          description:
+              "I thrive in solving complex problems by approaching them with creativity and a systematic mindset. I enjoy tackling challenges head-on and finding innovative solutions that lead to meaningful outcomes.",
       },
   ];
 </script>
@@ -54,13 +64,15 @@
       >
           <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
               Hi! I'm <span class="poppins text-violet-400">Asbin</span> Poudel
-              <br />Web
-              <span class="poppins text-violet-400">Developer</span>
+              <br />
+              <span class="poppins text-violet-400">Web Developer</span>
           </h2>
           <p class="text-base sm:text-lg md:text-xl">
-              My <span class="text-violet-400"> favorite tech</span> includes JavaScript
-              ( React), TailwindCSS, Node.js + Express.js & PostgreSQL
-              or Firebase/Firestore!,AWS Cloud Computing, Data Science(Python), Mobile Apps Development(Java).
+            A dedicated recent graduate in computer engineering from Pokhara University, equipped with foundational knowledge and
+            a genuine enthusiasm for technology. Eagerly pursuing entry-level opportunities or internships within a tech company to
+            actively apply my programming skills and embark on a fulfilling career path.
+
+            
           </p>
           <button
               class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
@@ -68,7 +80,7 @@
               <div
                   class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
               />
-              <h4 class="relative z-9">Get in touch &rarr;</h4>
+              <h4 class="relative z-9">Download Resume</h4>
           </button>
       </div>
       <div class="relative shadow-2xl grid place-items-center">
@@ -107,35 +119,33 @@
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
           <Step step={steps[0]}>
               <p>
-                  Smoljames Store is a a merchanising store created with <strong
+                  IMMS is a basic internal marks management system built with  <strong
                       class="text-violet-400"
-                      >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-                  > Commerce.js is a product CMS and Stripe is used for all transaction
-                  handling.
+                      >React, Postgresql, HTML, CSS and JS
+                      </strong
+                      >
               </p>
           </Step>
           <Step step={steps[1]}>
               <p>
-                  Ultimate Todos is a Full Stack <strong
-                      class="text-violet-400">Next.js</strong
+                  Student Study System is a web application built using  <strong
+                      class="text-violet-400">Python with Django</strong
                   >,
-                  <strong class="text-violet-400">Node.js + Express.js</strong
-                  >
-                  & <strong class="text-violet-400">Firebase</strong> CRUD application
-                  that allows a user to login, manage a tidy and efficacious todo
-                  list, and persist this information across devices.
+                  <strong class="text-violet-400"> SQLite, HTML, CSS and JS.</strong
+                  >CRUD application that allows a user to login, manage a tidy and efficacious todo
+                   list, and persist this information across devices.
               </p>
           </Step>
           <Step step={steps[2]}>
               <p>
-                  The Pokédex is a <strong class="text-violet-400"
-                      >SvelteKit & TailwindCSS</strong
+                  A Weather App is a <strong class="text-violet-400"
+                      >Java</strong
                   >
-                  web application, hosted on
-                  <strong class="text-violet-400">Netlify</strong>, that
-                  consumes and caches the
-                  <strong class="text-violet-400">Pokémon API</strong>
-                  to display all Pokémon information. Gotta catch them all!
+                  mobile application
+                  <strong class="text-violet-400"> that
+                  pulls weather API 
+                  <strong class="text-violet-400">
+                  to display the weather details of the location which you want to search .
               </p>
           </Step>
       </div>
@@ -190,6 +200,75 @@
               </div>
           {/each}
       </div>
+      
+<section class="py-20 lg:py-32 flex flex-col gap-24" id="education">
+  <div class="flex flex-col gap-2 text-center">
+      <h6 class="text-large sm:text-xl md:text-2xl">
+          My Educational Achievements
+      </h6>
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+          Education <span class="poppins text-violet-400">History</span>
+      </h3>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10">
+      <!-- First Educational Achievement -->
+      <div class="bg-blue shadow-lg rounded-lg p-4">
+          <h4 class="font-semibold text-xl">Bachelor's in Computer Engineering</h4>
+          <p class="text-gray-500">Pokhara University</p>
+          <p class="text-gray-500">Graduated: Oct 2023</p>
+      </div>
+
+      <!-- Second Educational Achievement -->
+      <div class="bg-blue shadow-lg rounded-lg p-4">
+          <h4 class="font-semibold text-xl">High School </h4>
+          <p class="text-gray-500">Amarsingh Secondary School</p>
+          <p class="text-gray-500">Graduated: 2018</p>
+      </div>
+      <div class="bg-blue shadow-lg rounded-lg p-4">
+        <h4 class="font-semibold text-xl"> School Leaving Certificate </h4>
+        <p class="text-gray-500">L.Angel Secondary School</p>
+        <p class="text-gray-500">Graduated: 2016</p>
+    </div>
+  </div>
+</section>
+<!-- Add this code below your existing sections -->
+<section class="py-20 lg:py-32 flex flex-col gap-24" id="skills">
+  <div class="flex flex-col gap-2 text-center">
+      <h6 class="text-large sm:text-xl md:text-2xl">
+          My Skills
+      </h6>
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+          What I <span class="poppins text-violet-400">Can Do</span>
+      </h3>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10">
+      <!-- Skill #1 -->
+      <div class="bg-blue shadow-lg rounded-lg p-4">
+          <h4 class="font-semibold text-xl">Web Development</h4>
+          <p class="text-gray-500">HTML, CSS, JavaScript, React, Node.js</p>
+      </div>
+
+      <!-- Skill #2 -->
+      <div class="bg-blue shadow-lg rounded-lg p-4">
+          <h4 class="font-semibold text-xl">Python Programming</h4>
+          <p class="text-gray-500">Django,  Data Analysis, Artificial Intelligence</p>
+      </div>
+      <div class="bg-blue shadow-lg rounded-lg p-4">
+        <h4 class="font-semibold text-xl">Mobile App Development</h4>
+        <p class="text-gray-500">Java, Android Studio</p>
+    </div>
+    <div class="bg-blue shadow-lg rounded-lg p-4">
+      <h4 class="font-semibold text-xl">Others</h4>
+      <p class="text-gray-500">C++, SQL, Git, PostgreSQL, LATEX, Cloud Computing</p>
+  </div>
+  </div>
+</section>
+
+
+
+
       <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
           The <span class="text-violet-400">Complete</span> Package
       </h5>
