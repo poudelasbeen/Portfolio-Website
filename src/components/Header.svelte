@@ -4,8 +4,8 @@
   export let tabs = [
       { name: "Projects ", link: "#projects" },
       { name: "About me", link: "#about" },
-      { name: "Blog", link: "" },
-      // { name: "Contact", link: "" },
+    //{ name: "Blog", link: "" },
+      // { name: "Contact", link: "#contact" },
       // {name: '', link: ''},
   ];
 </script>
