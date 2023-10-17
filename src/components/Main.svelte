@@ -130,8 +130,7 @@
                       class="text-violet-400">Python with Django</strong
                   >,
                   <strong class="text-violet-400"> SQLite, HTML, CSS and JS.</strong
-                  >CRUD application that allows a user to login, manage a tidy and efficacious todo
-                   list, and persist this information across devices.
+                  >
               </p>
           </Step>
           <Step step={steps[2]}>
