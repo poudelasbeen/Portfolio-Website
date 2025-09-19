@@ -20,6 +20,9 @@ devDependencies:
   autoprefixer:
     specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.31)
+  gh-pages:
+    specifier: ^6.1.0
+    version: 6.1.0
   postcss:
     specifier: ^8.4.31
     version: 8.4.31

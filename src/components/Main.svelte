@@ -68,8 +68,8 @@
               <span class="poppins text-violet-400">Web Developer</span>
           </h2>
           <p class="text-base sm:text-lg md:text-xl">
-            A dedicated recent graduate in computer engineering from Pokhara University, equipped with foundational knowledge and
-            a genuine enthusiasm for technology. Eagerly pursuing entry-level opportunities or internships within a tech company to
+            A dedicated graduate in computer engineering from Pokhara University, equipped with foundational knowledge and
+            a genuine enthusiasm for technology. Eagerly pursuing opportunities  within a tech company to
             actively apply my programming skills and embark on a fulfilling career path.
 
             
