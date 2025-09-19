@@ -65,12 +65,13 @@
           <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
               Hi! I'm <span class="poppins text-violet-400">Asbin</span> Poudel
               <br />
-              <span class="poppins text-violet-400">Web Developer</span>
+              <span class="poppins text-violet-400">Computer Engineer</span>
           </h2>
           <p class="text-base sm:text-lg md:text-xl">
-            A dedicated graduate in computer engineering from Pokhara University, equipped with foundational knowledge and
-            a genuine enthusiasm for technology. Eagerly pursuing opportunities  within a tech company to
-            actively apply my programming skills and embark on a fulfilling career path.
+            I am a Computer Engineering graduate from Pokhara University with a solid foundation in programming and a strong
+            passion for technology and data science, I bring hands-on experience as an IT Assistant. I am eager to apply my skills in
+            data analysis, database management, network infrastructure, and IT support to drive data-driven solutions and contribute
+            to innovative, technology-focused projects in dynamic environments.
 
             
           </p>
@@ -107,15 +108,76 @@
           />
       </div> -->
   </section>
+
+  <!-- Work Experience Section -->
+<section class="py-20 lg:py-32 flex flex-col gap-16" id="experience">
+  <div class="flex flex-col gap-2 text-center">
+      <h6 class="text-large sm:text-xl md:text-2xl">
+          My Professional Journey
+      </h6>
+      <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+          Work <span class="poppins text-violet-400">Experience</span>
+      </h3>
+  </div>
+
+  <!-- Timeline Container -->
+  <div class="relative border-l-4 border-violet-400 pl-6 space-y-12 max-w-4xl mx-auto">
+      
+      <!-- NMB -->
+      <div class="relative">
+          <div class="absolute -left-8 top-1 w-6 h-6 rounded-full bg-violet-400 border-4 border-white shadow"></div>
+          <h4 class="font-semibold text-xl">Sr. Assistant - IT Department</h4>
+          <p class="text-white-500">NMB Laghubitta Bittiya Sanstha Ltd. | June 2025 – Present</p>
+          <ul class="list-disc list-inside text-white-600 mt-2 space-y-1">
+              <li>System Administrator & Windows Server Management</li>
+              <li>Database management, optimization, and reporting</li>
+              <li>Network engineering & infrastructure support</li>
+              <li>Managed and updated organizational website</li>
+              <li>Provided IT support and resolved user issues</li>
+          </ul>
+      </div>
+
+      <!-- Global IME -->
+      <div class="relative">
+          <div class="absolute -left-8 top-1 w-6 h-6 rounded-full bg-violet-400 border-4 border-white shadow"></div>
+          <h4 class="font-semibold text-xl">Assistant - IT Department</h4>
+          <p class="text-white-500">Global IME Laghubitta Bittiya Sanstha Ltd. | Apr 2024 – Jun 2025</p>
+          <ul class="list-disc list-inside text-white-600 mt-2 space-y-1">
+              <li>Database management, performance optimization, and reporting</li>
+              <li>System monitoring & troubleshooting hardware/software issues</li>
+              <li>Website updates and content management</li>
+              <li>Network support and hardware/software installation</li>
+              <li>Ensured hardware performance & system security</li>
+          </ul>
+      </div>
+
+      <!-- NIC Asia -->
+      <div class="relative">
+          <div class="absolute -left-8 top-1 w-6 h-6 rounded-full bg-violet-400 border-4 border-white shadow"></div>
+          <h4 class="font-semibold text-xl">Assistant - IT Department</h4>
+          <p class="text-white-500">NIC Asia Laghubitta Bittiya Sanstha Ltd. | Jan 2024 – Apr 2024</p>
+          <ul class="list-disc list-inside text-white-600 mt-2 space-y-1">
+              <li>Supported IT operations across branches</li>
+              <li>Installed hardware and software applications</li>
+              <li>Troubleshot issues and escalated when required</li>
+              <li>Monitored hardware operation & security</li>
+              <li>Coordinated with vendors regarding software applications</li>
+          </ul>
+      </div>
+  </div>
+</section>
+
+
+
   <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
-      <div class="flex flex-col gap-2 text-center">
+      <class class="flex flex-col gap-2 text-center">
           <h6 class="text-large sm:text-xl md:text-2xl">
               A few of my creative endeavors.
           </h6>
+      </class>
           <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-              Curious to <span class="poppins text-violet-400">see</span> my work?
+              Curious to <span class="poppins text-violet-400">see</span> my projects?
           </h3>
-      </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
           <Step step={steps[0]}>
